@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.sir.library.banner.ConvenientBanner
+        android:id="@+id/banner_a"
+        android:layout_width="match_parent"
+        android:layout_height="420px"
+        app:canLoop="true" />
+
+    <com.sir.library.banner.ConvenientBanner
+        android:id="@+id/banner_b"
+        android:layout_width="match_parent"
+        android:layout_height="420px"
+        app:canLoop="true" />
+
+    <com.sir.library.banner.ConvenientBanner
+        android:id="@+id/banner_c"
+        android:layout_width="match_parent"
+        android:layout_height="420px"
+        app:canLoop="true" />
+</LinearLayout>
